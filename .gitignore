@@ -6,6 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Streamlit config (optional)
+.streamlit/
+
+# Model weights or large binaries
+*.pt
+*.pth
+*.h5
+
 # Distribution / packaging
 .Python
 build/
